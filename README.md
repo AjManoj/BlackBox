@@ -1,12 +1,3 @@
 # BlackBox
 
-<script>
-//do some vanilla XHR
-var xhr = new XMLHttpRequest();
-xhr.open('GET', 'https://github.com/AjManoj/BlackBox/edit/master/index.html');
-xhr.onreadystatechange = function(e) {
-  if(xhr.readyState === 4)
-    console.log("got result: ", xhr.responseText);
-};
-xhr.send();
-</script>
+
